@@ -10,7 +10,7 @@
 
    <body>
       <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
-         url = "jdbc:mysql://database-1.cflhpn18nviq.us-east-1.rds.amazonaws.com/test"
+         url = "jdbc:mysql://terraform-20210812080735654000000001.cdla88y7mgmb.ap-south-1.rds.amazonaws.com/test"
          user = "admin"  password = "admin123"/>
  
       <sql:query dataSource = "${snapshot}" var = "result">
