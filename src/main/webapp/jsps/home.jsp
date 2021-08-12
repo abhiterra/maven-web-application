@@ -7,7 +7,7 @@
    <head>
       <title>SELECT Operation</title>
    </head>
-
+   <h1> test page </h1>
    <body>
       <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
          url = "jdbc:mysql://terraform-20210812080735654000000001.cdla88y7mgmb.ap-south-1.rds.amazonaws.com/test"
