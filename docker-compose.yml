@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin123
+      MYSQL_ROOT_PASSWORD: admin12345
+    volumes:
+      - db:/var/lib/mysql
+
+  tomcat:
+    image: 18.208.211.180:8082/test-app:latest
+    ports:
+      - 80:8080
+volumes:
+  db:
