@@ -10,7 +10,7 @@
    <h1> EMPLOYEES record</h1>
    <body>
       <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
-         url = "jdbc:mysql://172.18.0.2/test"
+         url = "jdbc:mysql://db/test"
          user = "admin"  password = "admin123"/>
  
       <sql:query dataSource = "${snapshot}" var = "result">
