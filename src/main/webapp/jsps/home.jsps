@@ -7,7 +7,7 @@
    <head>
       <title>SELECT Operation - test</title>
    </head>
-   <h1> EMPLOYEE RECORDS</h1>
+   <h1> EMPLOYEE RECORDS </h1>
    <body>
       <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
          url = "jdbc:mysql://db/test"
